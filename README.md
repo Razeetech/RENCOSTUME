@@ -1,10 +1,8 @@
-# RENCOSTUME
-EnoverLabs intern team 40 project RENCOSTUME
+# React + Vite
 
-<h1>Authors:</h1>
-<p>Raji Azeez || Razeetech || <a href="rajiazeez@gmail.com">mail Azeez</a></p>
-<p>Izima Obisike || Izima01 || <a href="kingsleyizima@gmail.com">mail Izima</a></p>
-<p>Adeniran Love || Love-Adeniran || <a href="loveadeniran1@gmail.com">mail Adeniran</a></p>
-<p>Nathology007 || <a href="nathanielegwus@gmail.com">mail Nathaniel</a></p>
-<p>stuffings101 </p>
-<p>VictorAkins24</p>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
