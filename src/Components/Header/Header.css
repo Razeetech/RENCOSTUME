@@ -1,105 +1,42 @@
 header {
-    background-color: transparent;
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+    gap: 36px;
+    align-items: center;
     width: 100vw;
-}
-
-header .left-block {
-    width: 56.5%;
+    padding: 18px 100px;
     background-color: white;
-    border-radius: 0 8px 8px 0;
-    display: flex;
-    gap: 60px;
-    justify-content: end;
-    align-items: center;
-    padding: 20px;
 }
 
-.left-block nav ul {
-    display: flex;
-    gap: 40px;
-    justify-content: space-between;
-    list-style: none;
-    align-items: center;
+header select option {
+    color: #060208;
+    min-height: 1em;
 }
 
-.left-block nav ul li a {
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 2px solid #E3E3E3;
+    min-width: 360px;
+    font-size: 20px;
+    outline: none;
+}
+
+.search-box input::placeholder {
+    font-size: 20px;
+    color: #d3d3d3;
+}
+
+.search-icon {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+}
+
+header a {
     font-size: 18px;
     color: #060208;
-    text-decoration: none;
-}
-
-ul li a.active {
-    color: #3D1551 !important;
-    font-weight: 600;
-}
-
-header .right-block {
-    width: 31%;
-    background-color: white;
-    border-radius: 8px 0 0 8px;
-    display: flex;
-    gap: 20px;
-    justify-content: start;
-    align-items: center;
-    padding: 16px;
-}
-
-header .right-block a {
-    font-size: 18px;
-    font-weight: 600;
-    color: #3D1551;
-    text-decoration: none;
-}
-
-header .right-block button {
-    color: white;
-    background-color: #3D1551;
-    padding: 10px 28px;
-    border-radius: 10px;
-    border: none;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-@media screen and (max-width: 1250px) {
-    header .left-block {
-        width: 61%;
-        gap: 36px;
-    }
-    .logo img, .logo {
-        width: 180px;
-        height: 28px;
-    }
-    .left-block nav ul {
-        gap: 28px;
-    }
-    header .right-block {
-        width: 35%;
-    }
-    header .right-block button {
-        padding: 10px 16px;
-    }
-}
-
-@media screen and (max-width: 920px) {
-    header .left-block {
-        gap: 32px;
-        width: 60%;
-    }
-    .logo img, .logo {
-        width: 146px;
-    }
-    .left-block nav ul {
-        gap: 20px;
-    }
-    header .right-block {
-        width: 37%;
-        gap: 16px;
-    }
-    header .right-block button {
-        padding: 10px 18px;
-    }
 }

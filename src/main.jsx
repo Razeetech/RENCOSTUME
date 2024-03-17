@@ -6,6 +6,7 @@ import Root from './Root.jsx';
 import Listing from './Pages/ProductListing/Listing.jsx';
 import ProductDetail from './Pages/ProductDetail/ProductDetail.jsx';
 import Home from './Pages/Home/Home.jsx';
+import Cart from './Pages/Cart/Cart.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: '/products/:productId',
     element: <ProductDetail />
+  },
+  {
+    path: '/shopping-cart',
+    element: <Cart />
   },
 ]);
 
