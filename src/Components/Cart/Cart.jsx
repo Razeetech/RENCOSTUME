@@ -38,7 +38,39 @@ const Cart = (cartlist) => {
                                     Subtotal
                                     
                                 </div>
-                                <div>
+                                <div className='py-2'>
+                                    <hr />
+                                </div>
+                            </div>
+                            <div className='row p-2 py-3'>
+                                <div className='col'>
+                                        <img src="#" alt="Product" /> 
+                                </div>
+                                <div className='col'>
+                                    <div className='row'>
+                                            <div className='col'>
+                                                <input type="checkbox" />
+                                            </div>
+                                            <div className='col'>
+                                                <input type="checkbox" />
+                                            </div>
+                                    </div>
+                                </div>
+                                <div className='border w-25 rounded col'>
+                                        
+                                    <h6 className='num p-2'>
+                                        <i class="material-symbols-outlined Q-icon">
+                                            add
+                                        </i>
+                                            2 
+                                        <i class="material-symbols-outlined Q-icon">remove</i>
+                                    </h6>
+
+                                </div>
+                                <div className='col'>2</div>
+                                <div className='col'>#5,000</div>
+                                <div className='col'>#20,000</div>
+                                <div className='py-2'>
                                     <hr />
                                 </div>
                             </div>
@@ -70,42 +102,90 @@ const Cart = (cartlist) => {
                                 <div className='col'>2</div>
                                 <div className='col'>#5,000</div>
                                 <div className='col'>#20,000</div>
+                                <div className='py-2'>
+                                    <hr />
+                                </div>
+                            </div>
+                            <div className='row p-2'>
+                                <div className='col'>
+                                        <img src="#" alt="Product" /> 
+                                </div>
+                                <div className='col'>
+                                    <div className='row'>
+                                            <div className='col'>
+                                                <input type="checkbox" />
+                                            </div>
+                                            <div className='col'>
+                                                <input type="checkbox" />
+                                            </div>
+                                    </div>
+                                </div>
+                                <div className='border w-50 rounded col'>
+                                        
+                                    <h6 className='num p-2'>
+                                        <i class="material-symbols-outlined Q-icon">
+                                            add
+                                        </i>
+                                            2 
+                                        <i class="material-symbols-outlined Q-icon">remove</i>
+                                    </h6>
+
+                                </div>
+                                <div className='col'>2</div>
+                                <div className='col'>#5,000</div>
+                                <div className='col'>#20,000</div>
+                                <div className='py-2'>
+                                    <hr />
+                                </div>
                             </div>
                         {/* </div> */}
-                        {/* <div className='p-2 m-2'>
-                            <h4 className="shopping-cart-text ">Cart</h4>
 
-                            <hr />
-                        </div>
-                        <div>
-                            <div className='row p-2'>
-                                <div className="col-4">
-                                    <img src="" alt="product" className="img-fluid" />
-                                </div>
-                                <div className="col-8">
-                                    <input type="checkbox" />
-                                    <input type="checkbox" />
-
-                                </div>
-                            </div>
-                            <div className='row p-2'>
-                                <div className="col-4">
-                                    <img src="" alt="product" className="img-fluid" />
-                                </div>
-                                <div className="col-8">
-                                    <h6>Product Name</h6>
-                                    <h6>US $99.32</h6>
-                                    <h6>Qty: 1</h6>
-                                    <button className="btn btn-danger">Remove</button>
-                                </div>
-                            </div>
-                        </div> */}
                     </div>
+
         </div>
                     
+                <div className='container py-4'>
+                    <div>
+                        <h5>Choose Delivery Channel</h5>
+                    </div>
+                    <div className='row '>
+                        <div className='col-4 mx-4 rounded shadow p-4'>
+                            <div className='row'>
+                                <div className='col-2'>
+                                    <input type="radio" name='deliveryType'  />
+                                </div>
+                                <div className='col'>
+                                    <h6>Delivery</h6>
+                                </div>
+                            </div>
+                            <div className='row'>
+                                <div className='col-2'>
+                                    <input type="radio" name='deliveryType'  />
+                                </div>
+                                <div className='col'>
+                                    <h6>Express Delivery</h6>
+                                </div>
+                            </div>
+                            <div className='p-2'>
+                                Express Delivery is only available for payment made before 11am in Lagos and Abuja
+                            </div>
+                        </div>
+                        <div className='col-6  rounded-4 shadow'>
+                            {/* about to start the form for choosing delivery channel  */}
+                            <div className='p-4'>
+                                <div className='p-2'>
+                                    <input type="text" placeholder='Location' className='form-control' />
+                                </div>
+                                <div className='p-2'>
+                                    <input type="text" placeholder='Amount' className='form-control' />
+                                </div>
+                            </div>
 
+                        </div>
+                    </div>
                 </div>
 
+                </div>
             </div>
     </div>
   )
