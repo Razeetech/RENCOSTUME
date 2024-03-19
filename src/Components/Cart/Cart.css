@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.shopping-cart-text{
+    font-size: 2rem;
+    /* text-align: center; */
+    color: rgb(48, 21, 74);
+}
+
+.btn-purple{
+    background-color: rgb(48, 21, 74);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.num{
+    display: inline;
+}
+.Q-icon{
+    font-size: 15px;
+}
