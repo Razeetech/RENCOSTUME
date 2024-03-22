@@ -89,20 +89,21 @@
         padding: 150px 70px 60px;
     }
     .reasons {
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 10px;
     }
     .reasons .reason {
-        width: 48%;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 568px) {
     .why {   
-        padding: 150px 50px 60px;
+        padding: 150px 40px 60px;
     }
     .reasons .reason {
-        width: 48%;
-        /* flex: 50%; */
         padding: 28px 18px;
     }
     .reason h5 {
