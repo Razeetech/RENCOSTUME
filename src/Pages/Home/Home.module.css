@@ -1,0 +1,145 @@
+.homeWrapper {
+    position: relative;
+}
+.stats {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 0 150px;
+    bottom: -100px;
+}
+.stat {
+    max-width: 22%;
+    padding: 20px 36px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(243, 235, 252, 0.4);
+}
+.stat span {
+    padding: 14px;
+    border-radius: 10px;
+    background-color: #3d1551;
+}
+.stat span img {
+    width: 40px;
+    height: 40px;
+}
+.stat > div {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.stat h5 {
+    color: #3d1551;
+    font-size: 30px;
+    font-weight: 600;
+}
+.stat p {
+    position: static !important;
+    transform: translateX(0) !important;
+    color: #060208;
+    font-size: 18px;
+    text-wrap: nowrap;
+}
+.trusted {
+    padding: 0 100px 100px;
+    width: 100%;
+}
+.trusted h3 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.trusted div {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.trusted div img {
+    max-width: 13%;
+}
+
+@media screen and (max-width: 1250px) {
+    .stats {
+        padding: 0 100px;
+        padding-right: 80px !important;
+        width: 100%;
+    }
+    .trusted div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .stats {
+        padding: 0 80px;
+        padding-right: 60px !important;
+    }
+    .stat {
+        padding: 16px 28px;
+    }
+    .stat span {
+        padding: 10px;
+    }
+    .stat span img, .stat span svg {
+        width: 32px;
+        height: 32px;
+    }
+    .stat h5 {
+        font-size: 24px;
+    }
+    .trusted div img {
+        max-width: 38%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .stats {
+        padding: 0 30px;
+        padding-right: 20px !important;
+        bottom: -80px;
+
+    }
+    .stat {
+        padding: 12px 20px;
+    }
+    .stat span {
+        padding: 8px;
+    }
+    .stat p {
+        text-wrap: wrap;
+        text-align: center;
+    }
+    .stat span img, .stat span svg {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .stat {
+        padding: 10px 16px;
+    }
+    .stat span {
+        padding: 6px;
+    }
+    .stat span img, .stat span svg {
+        width: 20px;
+        height: 20px;
+    }
+    .stat h5 {
+        font-size: 18px;
+    }
+    .stat p {
+        font-size: 12px;
+    }
+}

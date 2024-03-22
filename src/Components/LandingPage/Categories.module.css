@@ -1,0 +1,119 @@
+.categories {
+    padding: 0 100px 120px;
+    width: 100%;
+    height: fit-content;
+}
+.categories .top {
+    margin: 0 auto 35px;
+    width: 660px;
+    text-align: center;
+}
+.categories .top p {
+    margin-bottom: 30px;
+}
+.categories .top button {
+    padding: 10px;
+    background-color: #3d1551;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.images {
+    display: grid;
+    width: 100%;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-rows: 350px 350px 400px;
+    grid-template-columns: 1fr 1fr;
+}
+.images article {
+    position: relative;
+    height: 100%;
+}
+.images article button {
+    position: absolute;
+    bottom: 4px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #3d1551;
+    border: none;
+    padding: 15px;
+    text-wrap: nowrap;
+}
+.images article.one {
+    grid-row: 1 / 3 !important;
+}
+.images article.four {
+    grid-column: 1 / 3 !important;
+}
+.images article img {
+    width: 100%;
+    height: 100%;
+}
+.categories h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #060208;
+}
+.categories h2 span {
+    color: #3d1551;
+}
+.categories > .top > p {
+    color: #363732;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1250px) {
+    
+}
+
+@media screen and (max-width: 960px) {
+    .categories .top {
+        width: 75%;
+    }
+    .categories {
+        padding: 0 80px 100px;
+    }
+    .images {
+        grid-template-rows: 260px 260px 350px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .categories {
+        padding: 0 50px 100px;
+    }
+    .categories .top {
+        width: 85%;
+    }
+    .images {
+        grid-template-rows: 230px 230px 210px 210px;
+    }
+    .images article.one {
+        grid-column: 1 / 3 !important;
+    }
+    .categories h2 {
+        font-size: 32px;
+    }
+    .categories > .top > p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .categories {
+        padding: 0 30px 100px;
+    }
+    .images {
+        grid-template-rows: 210px 210px 190px 190px;
+    }
+    .categories .top button {
+        font-size: 16px;
+    }
+}

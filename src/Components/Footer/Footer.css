@@ -1,9 +1,21 @@
 footer {
     background-color: #3D1551;
-    width: 100vw;
+    width: 100%;
     padding: 75px 9% 36px;
     height: 400px;
     position: relative;
+}
+
+footer section section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* gap: 40px; */
+    width: 35%;
+}
+
+footer section section.one {
+    width: 30% !important;
 }
 
 footer div.top {
@@ -21,6 +33,16 @@ footer div.socials ul {
     display: flex;
     gap: 18px;
     list-style: none;
+}
+
+.socials ul li {
+    background-color: white;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer h3 {
@@ -52,10 +74,83 @@ hr {
     bottom: -40px;
 }
 
-p {
+footer p {
     position: absolute;
     bottom: 32px;
     color: #FFFFFF;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1250px) {
+    footer {
+        padding: 75px 6% 60px;
+    }
+    .top > .socials > img {
+        width: 200px;
+    }
+    footer h3 {
+        font-size: 20px;
+    }
+    .about ul li,
+    .support ul li,
+    .resources ul li,
+    .security ul li {
+        font-size: 16px;
+    }
+    hr {
+        bottom: -10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    footer {
+        height: unset;
+    }
+    .top {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .socials {
+        padding-inline: 40px;
+    }
+    footer section section, footer section section.one {
+        width: 100% !important;
+        gap: 20%;
+        justify-content: unset;
+        padding: 0 40px;
+    }
+    footer h3 {
+        font-size: 24px;
+    }
+    .about ul li,
+    .support ul li,
+    .resources ul li,
+    .security ul li {
+        font-size: 20px;
+    }
+    footer p {
+        bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .socials {
+        padding-inline: 20px;
+    }
+    footer section section, footer section section.one {
+        padding: 0 20px;
+    }
+    footer h3 {
+        font-size: 24px;
+    }
+    .about ul li,
+    .support ul li,
+    .resources ul li,
+    .security ul li {
+        font-size: 20px;
+    }
+    footer p {
+        text-wrap: nowrap;
+    }
 }
