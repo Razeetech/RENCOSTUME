@@ -1,0 +1,137 @@
+.wrapper {
+    padding: 0px 100px 100px;
+    display: flex;
+    align-items: end;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    width: 100px;
+    position: relative;
+}
+.title span {
+    background-color: #3d1551;
+    padding: 60px 24px;
+    display: block;
+}
+.title h4 {
+    position: absolute;
+    transform: rotate(-90deg) translateY(-50%);
+    transform-origin: top left;
+    left: 47%;
+    bottom: 200px;
+    font-size: 40px;
+    color: #3d1551;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.info h3 {
+    color: #060208;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.info div {
+    background-color: #e8dbf9;
+    padding: 60px 25px;
+}
+.wrapper > span {
+    background-color: #3d1551;
+    padding: 60px 24px;
+    display: block;
+}
+.wrapper > span img {
+    transform: rotateY(180deg);
+}
+.mid {
+    display: flex;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 1250px) {
+    .wrapper {
+        padding: 0 80px 100px;
+    }
+    .wrapper > div > img {
+        width: 400px;
+    }
+    .title {
+        width: 80px;
+    }
+    .title span, .wrapper > span {
+        padding: 50px 18px;
+    }
+    .title h4 {
+        font-size: 36px;
+    }
+    span img {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        padding: 0 60px 100px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .wrapper > div > img {
+        width: 330px;
+    }
+    .title {
+        justify-content: unset;
+        align-items: center;
+        gap: 40px;
+    }
+    .title span, .wrapper > span {
+        padding: 20px 40px;
+    }
+    .title h4 {
+        font-size: 28px;
+        position: static;
+        transform: rotate(0) translateY(0) !important;
+    }
+    .wrapper > span {
+        display: none;
+    }
+    .info {
+        gap: 40px;
+    }
+    .info h3 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .wrapper {
+        padding: 0 40px 80px;
+        flex-direction: column;
+        gap: 28px;
+    }
+    .mid {
+        flex-direction: column-reverse;
+        justify-content: stretch;
+    }
+    .wrapper .mid img {
+        width: 100%;
+    }
+    .info {
+        align-items: start;
+        gap: 20px;
+    }
+    .info h3 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .wrapper {
+        padding: 0 40px 60px;
+    }
+}
