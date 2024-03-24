@@ -70,7 +70,9 @@
 }
 
 @media screen and (max-width: 1250px) {
-    
+    .categories {
+        padding: 0 80px 100px;
+    }    
 }
 
 @media screen and (max-width: 960px) {
@@ -78,16 +80,16 @@
         width: 75%;
     }
     .categories {
-        padding: 0 80px 100px;
+        padding: 0 60px 80px;
     }
     .images {
         grid-template-rows: 260px 260px 350px;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 740px) {
     .categories {
-        padding: 0 50px 100px;
+        padding: 0 45px 60px;
     }
     .categories .top {
         width: 85%;
@@ -108,7 +110,7 @@
 
 @media screen and (max-width: 568px) {
     .categories {
-        padding: 0 30px 100px;
+        padding: 0 30px 40px;
     }
     .images {
         grid-template-rows: 210px 210px 190px 190px;

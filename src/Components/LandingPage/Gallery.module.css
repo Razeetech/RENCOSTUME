@@ -45,12 +45,14 @@
 
 
 @media screen and (max-width: 1250px) {
-    
+    .top {
+        padding: 0 80px;
+    }
 }
 
 @media screen and (max-width: 960px) {
     .top {
-        padding: 0 80px;
+        padding: 0 60px;
         flex-direction: column;
         gap: 40px;
     }
@@ -69,9 +71,9 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 740px) {
     .top {
-        padding: 0 50px;
+        padding: 0 45px;
         gap: 30px;
     }
     .top button {

@@ -54,12 +54,14 @@
 }
 
 @media screen and (max-width: 1250px) {
-       
+    .why {
+        padding: 150px 80px 80px;
+    }  
 }
 
 @media screen and (max-width: 1024px) {
     .why {
-        padding: 150px 70px 80px;
+        padding: 150px 60px 80px;
     }
     .why > p {
         width: unset;
@@ -84,9 +86,9 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 740px) {
     .why {
-        padding: 150px 70px 60px;
+        padding: 150px 45px 60px;
     }
     .reasons {
         display: grid;
@@ -101,7 +103,7 @@
 
 @media screen and (max-width: 568px) {
     .why {   
-        padding: 150px 40px 60px;
+        padding: 150px 30px 60px;
     }
     .reasons .reason {
         padding: 28px 18px;
