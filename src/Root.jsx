@@ -1,13 +1,16 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet, useLocation } from 'react-router-dom'
 import Footer from './Components/Footer/Footer'
 import Header from './Components/Header/Header'
 
 const Root = () => {
+  const loc = useLocation();
   return (
     <>
       <Header />
       <Outlet />
-      <Footer />
+      {
+        loc.pathname == '/checkout' ? <></> : <Footer />
+      }
     </>
   )
 }

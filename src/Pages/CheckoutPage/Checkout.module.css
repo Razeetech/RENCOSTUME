@@ -1,0 +1,470 @@
+.wrapper {
+    padding: 60px 100px;
+}
+.wrapper h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #3d1551;
+    border-bottom: 2px solid #0f0208;
+    width: 100%;
+    margin-bottom: 24px;
+}
+.tabs {
+    display: flex;
+    border: 1px solid #f3ebfc;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow-x: hidden;
+}
+.tab {
+    padding-block: 10px;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.tab p {
+    z-index: 3;
+    color: #060208;
+    font-size: 18px;
+    font-weight: 700;
+} 
+.tabContentContainer {
+    overflow-x: hidden;
+    margin: 0 auto 60px;
+    width: 560px;
+    display: flex;
+}
+
+.tabContentContainer > div {
+    margin-top: 20px;
+    width: 100%;
+    flex: 1;
+    transition: transform 0.4s ease;
+}
+.highlight {
+    position: absolute;
+    /* inset: 0; */
+    bottom: 0;
+    left: 0;
+    height: 105%;
+    width: 34.5%;
+    border-radius: 6px;
+    background-color: #f3ebfc;
+    transition: left 0.4s;
+    cursor: pointer;
+}
+
+/* GUEST Page */
+.guest, .tabContent {
+    text-align: center;
+    min-width: 560px;
+    max-width: 562px;
+}
+.guest h4 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.guest input,
+.signIn > input,
+.signIn > div > input,
+.create input {
+    width: 100%;
+    border: 1px solid #ecdffa;
+    padding: 10px;
+    font-size: 18px;
+    color: #3d3732;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    outline: none;
+}
+.guest input::placeholder,
+.signIn input::placeholder,
+.create input::placeholder {
+    font-size: 16px;
+}
+.guest p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.guest button, .tabContent button,  .create button {
+    background-color: #3d1551;
+    margin: 20px auto 0;
+    padding: 12px 80px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+
+/* Sign In Page */
+.signIn div, .create > div {
+    position: relative;
+}
+.signIn div input {
+    margin-bottom: 0;
+}
+.eye {
+    position: absolute;
+    right: 18px;
+    top: 10px;
+}
+.remember {
+    display: flex;
+    text-align: left;
+    margin: 16px 0 16px;
+    align-items: start;
+}
+.rem {
+    display: inline;
+    width: 23px !important;
+    margin-right: 12px;
+    text-align: left;
+}
+label {
+    font-size: 18px;
+    text-decoration: underline #3d3732;
+    color: #3d3732;
+}
+a {
+    text-align: left;
+    margin: 0;
+    display: block;
+    font-size: 18px;
+    color: #3d3732;
+}
+
+/* Create Account Page */
+.create {
+    border: 1px solid rgba(61, 55, 50, 0.5);
+    border-radius: 10px;
+    padding: 32px 48px;
+}
+.create .remember {
+    margin: 4px 0 0;
+}
+.main {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 48px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    transition: all 0.4s;
+}
+
+/* Payment Details */
+aside {
+    padding: 0;
+    width: 100%;
+}
+main aside h3 {
+    font-size: 32px;
+    color: #3d1551;
+    font-weight: bold;
+}
+aside > div {
+    border: 1px solid #ecdffa;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+}
+aside div img {
+    margin-bottom: 10px;
+    width: 200px;
+}
+.email {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #3d3732;
+}
+.price {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #3d3732;
+}
+aside > div > div {
+    border: 1px solid #f3ebfc;
+    padding: 10px;
+    background-color: #fbfffe;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+aside > div > div p {
+    font-size: 20px;
+    color: #3d3732;
+}
+aside > div > div p span {
+    color: #3d3732;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 4px;
+    font-style: italic;
+}
+aside > div > div h5 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+aside button {
+    width: 100%;
+    color: #ffffff;
+    background-color: #3d1551;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 8px;
+    border: none;
+}
+.info {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    color: #3d3732;
+    margin-top: 6px;
+}
+
+/* Review Order */
+.review {
+    width: 100%;
+    border: 1px solid #3d1551;
+    background-color: #f3ebfc;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.review h3 {
+    color: #3d1551;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.dates {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #3d1551;
+}
+.dates button {
+    border: 1px solid #3d1551;
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.dates div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+.prices {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    padding-bottom: 28px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #3d1551;
+}
+.prices div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.prices div p {
+    color: #3d3732;
+    font-size: 22px;
+}
+.prices div:nth-child(2) p {
+    text-align: right;
+}
+.summary {
+    border-top: 1px solid #3d1551;
+    padding-top: 28px;
+}
+.summary div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+.summary div:first-child p{
+    color: #3d3732;
+    font-size: 20px;
+}
+.summary div:first-child b {
+    color: #3d3732;
+    font-size: 24px;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 380px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #f3ebfc;
+}
+.item {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.item img {
+    width: 160px;
+    height: 150px;
+}
+.item div {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.item h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #060208;
+}
+.item b {
+    padding-left: 8px;
+}
+.item p {
+    font-size: 18px;
+    color: #3d3732;
+}
+.item h3 {
+    font-size: 26px;
+    color: #3d3732;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1250px) {
+    .wrapper {
+        padding: 50px 80px;
+    }
+    .tabs {
+        width: 700px;
+    }
+    .tabContentContainer {
+        width: 560px;
+    }
+    .wrapper h1 {
+        font-size: 44px;
+    }
+    .review h3 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .wrapper {
+        padding: 30px 60px;
+    }
+    .wrapper h1 {
+        font-size: 40px;
+    }
+    .tabs {
+        width: 600px;
+    }
+    .main {
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+    }
+    aside div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .wrapper {
+        padding: 30px 45px;
+    }
+    .wrapper h1 {
+        font-size: 36px;
+    }
+    .guest, .tabContent, .tabs, .tabContentContainer {
+        min-width: 100%;
+        width: 100%;
+    }
+    .tab {
+        padding: 8px 16px;
+        text-align: center;
+    }
+    .tab p {
+        font-size: 16px;
+        text-wrap: wrap;
+    }
+    .main {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .main aside h3 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .wrapper {
+        padding: 20px 30px;
+    }
+    .tab {
+        padding: 7px 10px;
+    }
+    .main aside h3 {
+        font-size: 24px;
+    }
+    .review {
+        padding: 14px 22px;
+    }
+    .prices {
+        margin-top: 14px;
+        padding-bottom: 22px;
+    }
+    .summary {
+        padding-top: 22px;
+    }
+    .prices div {
+        gap: 16px;
+    }
+    .prices div p {
+        font-size: 18px;
+    }
+    .items {
+        margin-top: 30px;
+        gap: 24px;
+        height: 320px;
+        margin-bottom: 10px;
+    }
+    .item {
+        gap: 22px;
+    }
+    .item img {
+        width: 150px;
+        height: 140px;
+    }
+    .item div {
+        gap: 9px;
+    }
+    .item h4 {
+        font-size: 18px;
+    }
+    .item p {
+        font-size: 16px;
+    }
+    .item h3 {
+        font-size: 22px;
+    }
+}

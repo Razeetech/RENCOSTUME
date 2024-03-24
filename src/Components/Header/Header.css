@@ -2,9 +2,9 @@ header {
     display: flex;
     gap: 30px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
-    padding: 18px 0;
+    padding: 18px 100px;
     background-color: white;
 }
 nav, .mob-nav {
@@ -91,6 +91,9 @@ aside a {
 }
 
 @media screen and (max-width: 1250px) {
+    header {
+        padding: 18px 80px;
+    }
     header .logo {
         width: 140px;
     }
@@ -109,11 +112,8 @@ aside a {
 @media screen and (max-width: 960px) {
     header {
         gap: 24px;
-        padding: 18px 25px;
+        padding: 18px 60px;
     }
-    /* header > .search-box {
-        width: 180px;
-    } */
     header > .rent {
         display: none;
     }
@@ -124,13 +124,13 @@ aside a {
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 740px) {
     .ham {
         display: block;
     }
     header {
         justify-content: space-between;
-        padding: 18px 40px;
+        padding: 18px 45px;
     }
     header > .search-box {
         display: none;
@@ -143,5 +143,11 @@ aside a {
     }
     .overlay {
         display: block;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    header {
+        padding: 18px 30px;
     }
 }
