@@ -24,8 +24,6 @@ export const Item = ({ image, name, type, timeinDays, price, quantity }) => {
                 {price || "20,000"}
             </h3>
         </div>
-            <button onClick={() => addToCart({image, name, type, timeinDays, price, quantity: 1 })}>+</button>
-            <button onClick={() => removeFromCart(name)}>-</button>
     </div>
   )
 }

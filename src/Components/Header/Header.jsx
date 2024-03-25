@@ -10,8 +10,8 @@ import useStore from '../../../store';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const { count } = useStore();
-  const totalQty = count();
+  const { count, cart } = useStore();
+  // const totalQty = count();
 
   return (
     <header>
@@ -35,7 +35,7 @@ const Header = () => {
         <Link to="/shopping-cart" className='cart'>
           <IoCartOutline size={24} stroke='#060208' />
           {
-            totalQty !== 0 ? <p>{totalQty}</p> : <></>
+            cart.length !== 0 ? <p>{count()}</p> : <></>
           }
         </Link>
       </nav>
