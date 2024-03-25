@@ -106,13 +106,15 @@ footer p {
 @media screen and (max-width: 900px) {
     footer {
         height: unset;
+        padding: 45px 6% 60px;
     }
     .top {
         flex-direction: column;
-        gap: 60px;
+        gap: 48px;
     }
     .socials {
         padding-inline: 40px;
+        padding-top: 20px;
     }
     footer section section, footer section section.one {
         width: 100% !important;

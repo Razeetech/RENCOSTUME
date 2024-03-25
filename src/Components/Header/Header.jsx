@@ -45,7 +45,9 @@ const Header = () => {
         </Link>
         <Link to="/shopping-cart">
           <IoCartOutline size={24} stroke='#060208' />
-          <p style={{ padding: '2px 4px', background: 'red', color: 'white' }}>{count}</p>
+          {
+            cart.length !== 0 ? <p>{count()}</p> : <></>
+          }
         </Link>
       </div>
       <div className={`${showMenu ? 'show' : 'hide'} overlay`}>

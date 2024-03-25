@@ -36,11 +36,10 @@
 }
 .slide img {
     width: 100%;
-    height: 560px;
 }
 
 .slide .middle {
-    height: 600px;
+    transform: scale(1.1);
 }
 
 

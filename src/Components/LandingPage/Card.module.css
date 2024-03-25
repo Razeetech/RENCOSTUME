@@ -61,7 +61,7 @@
 
 @media screen and (max-width: 740px) {
     .wrapper {
-        margin: 50px 45px 0;
+        margin: 30px 45px 0;
         flex-direction: column;
         gap: 28px;
     }
@@ -83,8 +83,8 @@
 
 @media screen and (max-width: 580px) {
     .wrapper {
-        margin: 50px 30px 0;
-        padding: 60px;
+        margin: 30px 30px 0;
+        padding: 40px;
     }
     .wrapper img {
         display: none;
