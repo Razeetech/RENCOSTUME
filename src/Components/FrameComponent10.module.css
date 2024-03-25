@@ -1,0 +1,46 @@
+.mdinairaIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  height: 33px;
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 82px;
+}
+.frameWrapper,
+.mdinairaParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mdinairaParent {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-12xs);
+}
+.frameWrapper {
+  height: 197px;
+  flex-direction: column;
+  padding: var(--padding-145xl) var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-literata);
+}
+@media screen and (max-width: 1050px) {
+  .div {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--font-size-lg);
+  }
+}

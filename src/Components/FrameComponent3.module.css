@@ -1,0 +1,43 @@
+.mdinairaIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+.frameWrapper,
+.mdinairaParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mdinairaParent {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-10xs);
+}
+.frameWrapper {
+  height: 199px;
+  flex-direction: column;
+  padding: var(--padding-144xl) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 950px) {
+  .div {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--font-size-lg);
+  }
+}

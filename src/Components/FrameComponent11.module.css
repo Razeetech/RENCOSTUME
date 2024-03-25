@@ -1,0 +1,135 @@
+.shadowEffectIcon {
+  height: 166px;
+  width: 176px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.nefertitiWovenCrown,
+.quantities,
+.rent {
+  position: relative;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  z-index: 1;
+}
+.nefertitiWovenCrown {
+  align-self: stretch;
+  height: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--color-gray-400);
+}
+.quantities,
+.rent {
+  line-height: 22px;
+  min-width: 40px;
+}
+.quantities {
+  font-weight: 600;
+  min-width: 119px;
+}
+.brightnessControl {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.days {
+  height: 22px;
+  letter-spacing: 0.01em;
+  line-height: 30px;
+  display: inline-block;
+  min-width: 61px;
+}
+.days,
+.div,
+.mdinairaIcon {
+  position: relative;
+  z-index: 1;
+}
+.mdinairaIcon {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  height: 33px;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  min-width: 91px;
+}
+.imageFilters {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  font-size: var(--font-size-11xl);
+}
+.borderEffect,
+.opacityControl {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.borderEffect {
+  align-self: stretch;
+  height: 144px;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.opacityControl {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  min-width: 134px;
+}
+.gradientFill,
+.gradientFillWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.gradientFill {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-11xl);
+}
+.gradientFillWrapper {
+  width: 436px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-literata);
+}
+@media screen and (max-width: 1050px) {
+  .div {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .shadowEffectIcon {
+    flex: 1;
+  }
+  .days,
+  .nefertitiWovenCrown,
+  .quantities,
+  .rent {
+    font-size: var(--font-size-base);
+  }
+  .div {
+    font-size: var(--font-size-lg);
+  }
+  .gradientFill {
+    flex-wrap: wrap;
+  }
+}
