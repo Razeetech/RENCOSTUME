@@ -1,12 +1,3 @@
-
-const Listing = () => {
-  return (
-    <div>Listing</div>
-  )
-}
-
-export default Listing
-
 import FrameComponent12 from "../components/FrameComponent12";
 import FrameComponent51 from "../components/FrameComponent51";
 import LoopControl from "../components/LoopControl";
