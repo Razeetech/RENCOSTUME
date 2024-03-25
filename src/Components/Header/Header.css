@@ -9,7 +9,7 @@ header {
 }
 nav, .mob-nav {
     display: flex;
-    gap: 48px;
+    gap: 40px;
     align-items: center;
     justify-content: space-between;
 }
