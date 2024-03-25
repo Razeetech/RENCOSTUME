@@ -2,10 +2,8 @@
 import { TbCurrencyNaira } from 'react-icons/tb';
 import styles from '../../Pages/CheckoutPage/Checkout.module.css';
 import nefertiti from '../../assets/nefertiti.png';
-import useStore from '../../../store';
 
 export const Item = ({ image, name, type, timeinDays, price, quantity }) => {
-    const { addToCart, removeFromCart } = useStore();
 
     return (
     <div className={styles.item}>

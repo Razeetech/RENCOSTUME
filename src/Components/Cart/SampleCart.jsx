@@ -24,6 +24,10 @@ export const CartItem = ({ image, name, type, timeinDays, price, quantity }) => 
     // cart is the array of all products in the cart.
     // Other two are used to add or remove stuff from the cart
 
+    useEffect(() => {
+        console.log(cart);
+    }, [cart]);
+
     return (
     <div className={styles.item}>
         <img src={image || nefertiti} alt="" />
