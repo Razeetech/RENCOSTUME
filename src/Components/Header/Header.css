@@ -66,9 +66,9 @@ header a {
     text-wrap: nowrap;
 }
 aside {
-    background-color: #ffffff;
-    padding: 40px 24px;
-    width: fit-content;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px 24px 48px !important;
+    width: fit-content !important;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -85,9 +85,16 @@ aside {
 }
 aside .search-box {
     margin-bottom: 30px;
+    padding: 0 !important;
+    width: 320px;
 }
-aside button {
+aside button.close {
     margin-left: auto;
+    width: unset;
+    background-color: transparent;
+    margin-top: 0;
+    border: none;
+    padding: 0;
 }
 .show {
     transform: translate(0);

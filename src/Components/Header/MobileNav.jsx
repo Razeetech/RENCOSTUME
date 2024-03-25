@@ -1,13 +1,14 @@
 import { CiSearch } from 'react-icons/ci'
 import { Link } from 'react-router-dom'
-import { GiCancel } from "react-icons/gi";
+import { IoClose } from "react-icons/io5";
+import './Header.css';
 
 // eslint-disable-next-line react/prop-types
 const MobileNav = ({ setShowMenu }) => {
   return (
     <aside className=''>
-      <button onClick={() => setShowMenu(false)}>
-        <GiCancel size={24} />
+      <button onClick={() => setShowMenu(false)} className='close'>
+        <IoClose size={28} />
       </button>
       <div className="search-box">
         <input type="search" placeholder='What are you looking for?' />
