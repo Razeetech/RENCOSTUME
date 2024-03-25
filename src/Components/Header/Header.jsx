@@ -6,9 +6,12 @@ import { IoCartOutline } from "react-icons/io5";
 import { HiMenu } from "react-icons/hi";
 import MobileNav from './MobileNav';
 import { useState } from 'react';
+import useStore from '../../../store';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const { count, cart } = useStore();
+  // const totalQty = count();
 
   return (
     <header>
@@ -29,8 +32,11 @@ const Header = () => {
         <Link>
           <CiHeart size={24} stroke='#060208' />
         </Link>
-        <Link to="/shopping-cart">
+        <Link to="/shopping-cart" className='cart'>
           <IoCartOutline size={24} stroke='#060208' />
+          {
+            cart.length !== 0 ? <p>{count()}</p> : <></>
+          }
         </Link>
       </nav>
       <div className='mob-nav'>
@@ -39,6 +45,7 @@ const Header = () => {
         </Link>
         <Link to="/shopping-cart">
           <IoCartOutline size={24} stroke='#060208' />
+          <p style={{ padding: '2px 4px', background: 'red', color: 'white' }}>{count}</p>
         </Link>
       </div>
       <div className={`${showMenu ? 'show' : 'hide'} overlay`}>

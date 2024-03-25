@@ -4,7 +4,8 @@ import styles from '../../Pages/CheckoutPage/Checkout.module.css';
 import nefertiti from '../../assets/nefertiti.png';
 
 export const Item = ({ image, name, type, timeinDays, price, quantity }) => {
-  return (
+
+    return (
     <div className={styles.item}>
         <img src={image || nefertiti} alt="" />
         <div>
