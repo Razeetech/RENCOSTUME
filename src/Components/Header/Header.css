@@ -9,9 +9,23 @@ header {
 }
 nav, .mob-nav {
     display: flex;
-    gap: 30px;
+    gap: 48px;
     align-items: center;
     justify-content: space-between;
+}
+.cart {
+    position: relative;
+}
+.cart p {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 14px;
+    padding: 1px 5px;
+    border-radius: 50%;
+    font-weight: 600;
+    background-color: red;
+    color: white;
 }
 .mob-nav {
     display: none !important;
@@ -21,12 +35,12 @@ nav, .mob-nav {
 }
 header div:first-child {
     display: flex;
-    gap: 20px;
+    gap: 24px;
     align-items: center;
 }
 .search-box {
     position: relative;
-    width: 320px;
+    width: 360px;
 }
 .search-box input {
     padding: 12px 16px;

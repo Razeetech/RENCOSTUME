@@ -4,10 +4,22 @@ import { FaPencilAlt } from "react-icons/fa";
 import { TbCurrencyNaira } from 'react-icons/tb';
 import { Item } from './Item';
 import { itemsArray } from './Data';
+import useStore from '../../../store';
+
+
+export function formatNumberToCurrency(number) {
+    let numStr = number.toString();
+    let parts = numStr.split(".");
+    parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    return parts.join(".");
+}
 
 const ReviewOrder = () => {
     const [deliveryDate, setDeliveryDate] = useState('25/03/2024');
     const [returningDate, setReturningDate] = useState('31/03/2024');
+    const { totalCostFn, cart, count } = useStore();
+    const totalCost = totalCostFn();
+    const itemCount = count();
 
     return (
         <div className={styles.review}>
@@ -44,7 +56,7 @@ const ReviewOrder = () => {
                     </p>
                     <p>
                         <TbCurrencyNaira size={18} />
-                        118,000
+                        {formatNumberToCurrency(totalCost)}
                     </p>
                     <p>
                         <TbCurrencyNaira size={18} />
@@ -52,22 +64,24 @@ const ReviewOrder = () => {
                     </p>
                     <p>
                         <TbCurrencyNaira size={18} />
-                        <b>120,000</b>
+                        <b>{formatNumberToCurrency(totalCost+2000)}</b>
                     </p>
                 </div>
             </div>
             <div className={styles.summary}>
                 <div>
-                    <p>7 items</p>
+                    <p>{itemCount} item{itemCount>1 && 's'}</p>
                     <b>
                         <TbCurrencyNaira size={18} />
-                        118,000
+                        {formatNumberToCurrency(totalCost+2000)}
                     </b>
                 </div>
             </div>
             <div className={styles.items}>
+                {/* <Item /> */}
+                {/* <hr /> */}
                 {
-                    itemsArray.map(({image, name, price, quantity, timeinDays, type}, i) => (
+                    cart.map(({image, name, price, quantity, timeinDays, type}, i) => (
                         <Item key={i} image={image} name={name} price={price} quantity={quantity} timeinDays={timeinDays} type={type} />
                     ))
                 }

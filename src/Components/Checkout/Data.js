@@ -8,7 +8,7 @@ export const itemsArray = [
         name: 'Nefertiti Woven Crown',
         type: 'Rent',
         timeinDays: 3,
-        price: 10000,
+        price: 12000,
         quantity: 2
     },
     {

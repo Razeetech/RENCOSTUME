@@ -311,7 +311,7 @@ aside button {
     gap: 32px;
     margin-top: 40px;
     margin-bottom: 20px;
-    height: 380px;
+    max-height: 480px;
     overflow-y: scroll;
     scrollbar-width: thin;
     scrollbar-color: #f3ebfc;
