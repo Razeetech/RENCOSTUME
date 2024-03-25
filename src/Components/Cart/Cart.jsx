@@ -178,6 +178,15 @@ const Cart = (cartlist) => {
                                 </div>
                                 <div className='p-2'>
                                     <input type="text" placeholder='Amount' className='form-control' />
+                                    <label htmlFor="Amount">Amount #2,000</label>
+                                </div>
+                                <div className='p-2'>
+                                    <label htmlFor="PhoneNumber">Phone Number</label>
+                                    <input type="number" placeholder='Amount' className='form-control' />
+                                </div>
+                                <div>
+                                    <h6>Delivery</h6>
+                                    Delivery will get to your location a day before your requested day for your location that are not in Abuja, Lagos, Oyo and River State
                                 </div>
                             </div>
 
