@@ -1,0 +1,472 @@
+.cartSummary {
+  margin: 0;
+  height: 45px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.signalRouterChild {
+  width: 1093px;
+  height: 729px;
+  position: relative;
+  background-color: var(--color-lavender);
+  display: none;
+  max-width: 100%;
+}
+.expressDelivery {
+  height: 22px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.errorCorrector {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.mdinairaIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.outputMultiplexer {
+  height: 33px;
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 82px;
+  z-index: 1;
+}
+.dataQueue,
+.valueSieve {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.valueSieve {
+  height: 33px;
+  justify-content: flex-start;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-100);
+}
+.dataQueue {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.dataQueue1,
+.itemTotal {
+  position: relative;
+  z-index: 1;
+}
+.dataQueue1 {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+}
+.itemTotal {
+  height: 22px;
+  letter-spacing: 0.01em;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 89px;
+  white-space: nowrap;
+}
+.itemTotalWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.div,
+.mdinairaIcon1 {
+  position: relative;
+  z-index: 1;
+}
+.mdinairaIcon1 {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  height: 33px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 101px;
+}
+.dataQueue2,
+.mdinairaParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.mdinairaParent {
+  height: 33px;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-100);
+}
+.dataQueue2 {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.dataQueue3,
+.total {
+  position: relative;
+  z-index: 1;
+}
+.dataQueue3 {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+}
+.total {
+  height: 28px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 56px;
+  white-space: nowrap;
+}
+.totalWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.div1,
+.mdinairaIcon2 {
+  position: relative;
+  z-index: 1;
+}
+.mdinairaIcon2 {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div1 {
+  height: 35px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 116px;
+}
+.dataQueue4,
+.mdinairaGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.mdinairaGroup {
+  height: 35px;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray-100);
+}
+.dataQueue4 {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-6xl);
+}
+.dataQueue5 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.enterTheCode {
+  font-weight: 500;
+}
+.haveACouponContainer {
+  width: 277px;
+  height: 22px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 30px;
+  display: inline-block;
+  z-index: 1;
+}
+.dataCascadeWithErrorHandliChild {
+  height: 60px;
+  width: 991px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.apply {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 44px;
+  z-index: 2;
+}
+.dataCascadeWithErrorHandli,
+.dataCollector {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.dataCascadeWithErrorHandli {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: var(--padding-xl) var(--padding-21xl);
+  box-sizing: border-box;
+  z-index: 1;
+  font-size: var(--font-size-lg);
+}
+.dataCollector {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.dataQueue6,
+.newTotal {
+  position: relative;
+  z-index: 1;
+}
+.dataQueue6 {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+}
+.newTotal {
+  height: 28px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 113px;
+  white-space: nowrap;
+}
+.newTotalWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.div2,
+.mdinairaIcon3 {
+  position: relative;
+  z-index: 1;
+}
+.mdinairaIcon3 {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div2 {
+  height: 35px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 116px;
+}
+.mdinairaContainer {
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray-100);
+}
+.dataQueue7,
+.timingSequencer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.dataQueue7 {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-6xl);
+}
+.timingSequencer {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-10xl-5);
+  max-width: 100%;
+}
+.checkout {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 78px;
+  cursor: pointer;
+}
+.decisionTree,
+.sequenceSplitter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.decisionTree {
+  width: 300px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslateblue);
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.sequenceSplitter {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-11xs);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.signalRouter {
+  width: 1093px;
+  background-color: var(--color-lavender);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-25xl) var(--padding-32xl) var(--padding-84xl)
+    var(--padding-31xl);
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+  max-width: 100%;
+}
+.dataMerger,
+.dataSplitter,
+.filterBank {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.filterBank {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: var(--font-size-xl);
+}
+.dataMerger,
+.dataSplitter {
+  justify-content: flex-start;
+}
+.dataMerger {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-11xl);
+}
+.dataSplitter {
+  width: 1188px;
+  flex-direction: row;
+  padding: 0 var(--padding-3xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-literata);
+}
+@media screen and (max-width: 1200px) {
+  .signalRouter {
+    gap: 32px 64px;
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .cartSummary,
+  .div,
+  .outputMultiplexer {
+    font-size: var(--font-size-5xl);
+  }
+  .div1,
+  .div2 {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .signalRouter {
+    gap: 16px 64px;
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cartSummary {
+    font-size: var(--font-size-lg);
+  }
+  .expressDelivery {
+    font-size: var(--font-size-base);
+  }
+  .outputMultiplexer {
+    font-size: var(--font-size-lg);
+  }
+  .dataQueue {
+    flex-wrap: wrap;
+  }
+  .itemTotal {
+    font-size: var(--font-size-base);
+  }
+  .div {
+    font-size: var(--font-size-lg);
+  }
+  .dataQueue2 {
+    flex-wrap: wrap;
+  }
+  .total {
+    font-size: var(--font-size-xl);
+  }
+  .div1 {
+    font-size: var(--font-size-lgi);
+  }
+  .dataQueue4 {
+    flex-wrap: wrap;
+  }
+  .haveACouponContainer {
+    font-size: var(--font-size-base);
+  }
+  .newTotal {
+    font-size: var(--font-size-xl);
+  }
+  .div2 {
+    font-size: var(--font-size-lgi);
+  }
+  .dataQueue7 {
+    flex-wrap: wrap;
+  }
+}

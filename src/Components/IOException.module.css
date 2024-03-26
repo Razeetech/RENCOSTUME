@@ -1,0 +1,192 @@
+.path282Icon {
+  height: 172px;
+  width: 145.8px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -26px;
+  left: 140px;
+}
+.gallery {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  font-family: inherit;
+}
+.frameChild {
+  height: 120px;
+  width: 5px;
+  position: relative;
+}
+.exploreOurCaptivating,
+.viewAll {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 120%;
+}
+.exploreOurCaptivating {
+  align-self: stretch;
+  white-space: pre-wrap;
+}
+.viewAll {
+  display: inline-block;
+  min-width: 78px;
+  white-space: nowrap;
+}
+.viewAllWrapper {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkslateblue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-17xl);
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  color: var(--color-white);
+}
+.galleryParent,
+.outputFormatter {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.outputFormatter {
+  width: 759px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-200);
+}
+.galleryParent {
+  width: 1256px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.frameItem {
+  height: 660px;
+  width: 480px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.frameInner,
+.rectangleIcon {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 450px;
+  height: 600px;
+  object-fit: cover;
+}
+.rectangleIcon {
+  left: 990px;
+}
+.rectangleGroup {
+  height: 640px;
+  width: 1440px;
+  position: relative;
+  max-width: 100%;
+}
+.frameGroup,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.carbonnextOutlineIcon {
+  object-fit: contain;
+}
+.carbonnextOutlineIcon,
+.carbonnextOutlineIcon1 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 30px;
+}
+.carbonnextOutlineParent,
+.frameParent {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.carbonnextOutlineParent {
+  height: 30px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.path282Icon1 {
+  height: 184px;
+  width: 160.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: 204px;
+  right: 209.8px;
+  object-fit: contain;
+  z-index: 2;
+}
+.iOException {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-literata);
+}
+@media screen and (max-width: 1350px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .galleryParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .gallery {
+    font-size: var(--font-size-13xl);
+  }
+  .frameGroup {
+    gap: 20px 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .gallery {
+    font-size: var(--font-size-5xl);
+  }
+  .exploreOurCaptivating {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+}

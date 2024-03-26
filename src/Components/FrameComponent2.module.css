@@ -1,0 +1,230 @@
+.iconParkOutlinenext {
+  object-fit: contain;
+}
+.iconParkOutlinenext,
+.iconParkOutlinenext1 {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 48px;
+}
+.carbonnextOutlineIcon {
+  position: absolute;
+  top: 100px;
+  left: 203px;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.frameChild {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 232.9px;
+  z-index: 2;
+}
+.carbonnextOutlineParent {
+  height: 233.8px;
+  width: 323px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -203.8px;
+}
+.iconParkOutlinenextParent {
+  width: 1240px;
+  background-color: var(--color-darkslateblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-41xl) var(--padding-7xl) var(--padding-41xl)
+    var(--padding-11xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.testimonial {
+  margin: 0;
+  width: 59px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  transform: rotate(-90deg);
+}
+.frameItem {
+  height: 712px;
+  width: 462px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.angelWilliam {
+  margin: 0;
+  width: 226px;
+  height: 33px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.biquoteIcon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rencostumeExceededMy {
+  align-self: stretch;
+  height: 192px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 120%;
+  display: inline-block;
+}
+.dataFlowController {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.biquoteIcon1 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.dataFlowControllerParent,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dataFlowControllerParent {
+  align-items: flex-end;
+  gap: var(--gap-mini);
+}
+.frameWrapper {
+  background-color: var(--color-lavender-100);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-mid) var(--padding-6xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-200);
+}
+.angelWilliamParent,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.angelWilliamParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-55xl);
+  min-width: 352px;
+}
+.rectangleParent {
+  width: 1004px;
+  flex-direction: row;
+  align-items: flex-end;
+  row-gap: 20px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-400);
+}
+.frameInner {
+  height: 205.1px;
+  width: 246.1px;
+  position: absolute;
+  margin: 0 !important;
+  top: 18px;
+  right: -66.6px;
+  object-fit: contain;
+  z-index: 2;
+}
+.frameParent,
+.testimonialParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.testimonialParent {
+  width: 1086.5px;
+  align-items: center;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-16xl);
+  z-index: 1;
+  margin-left: -1216px;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-end;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-literata);
+}
+@media screen and (max-width: 1125px) {
+  .frameItem {
+    flex: 1;
+  }
+  .rectangleParent,
+  .testimonialParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .testimonial {
+    font-size: var(--font-size-13xl);
+  }
+  .angelWilliam {
+    font-size: var(--font-size-5xl);
+  }
+  .angelWilliamParent {
+    gap: 37px 74px;
+  }
+  .testimonialParent {
+    gap: 35px 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .iconParkOutlinenextParent {
+    flex-wrap: wrap;
+  }
+  .testimonial {
+    font-size: var(--font-size-5xl);
+  }
+  .angelWilliam {
+    font-size: var(--font-size-lg);
+  }
+  .rencostumeExceededMy {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .angelWilliamParent {
+    gap: 18px 74px;
+    min-width: 100%;
+  }
+}

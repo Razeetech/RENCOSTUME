@@ -1,0 +1,90 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavender);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.solardeliveryOutlineIcon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  z-index: 2;
+}
+.rectangleParent {
+  align-self: stretch;
+  height: 54px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavender);
+  z-index: 1;
+}
+.frameWrapper {
+  width: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.delivery,
+.deliveryWillGet {
+  position: relative;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  z-index: 1;
+}
+.delivery {
+  min-width: 89px;
+}
+.deliveryWillGet {
+  align-self: stretch;
+  height: 80px;
+  font-size: var(--font-size-lg);
+  line-height: 27px;
+  color: var(--color-darkslategray-100);
+}
+.deliveryParent,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.deliveryParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+  min-width: 343px;
+}
+.frameParent {
+  width: 596px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-literata);
+}
+@media screen and (max-width: 750px) {
+  .deliveryParent {
+    min-width: 100%;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .delivery {
+    font-size: var(--font-size-base);
+  }
+}

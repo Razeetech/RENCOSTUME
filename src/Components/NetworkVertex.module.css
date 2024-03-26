@@ -1,0 +1,322 @@
+.graphVertexChild,
+.path284Icon {
+  position: absolute;
+  margin: 0 !important;
+}
+.path284Icon {
+  height: 177.7px;
+  width: 181px;
+  right: -5px;
+  bottom: -71.7px;
+  object-fit: contain;
+}
+.graphVertexChild {
+  height: 144px;
+  width: 89px;
+  bottom: -23px;
+  left: 531px;
+}
+.rencostume {
+  color: var(--color-darkslateblue);
+}
+.whyRencostume {
+  margin: 0;
+  width: 387px;
+  height: 59px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.unlockBoundlessCreativity {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.01em;
+  line-height: 120%;
+  color: var(--color-darkslategray-200);
+  text-align: left;
+}
+.branchMergers {
+  width: 706px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.vectorIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.decisionMakerIcon,
+.errorHandlerIcon,
+.valueConverterIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3 {
+  height: 75%;
+  width: 75%;
+  position: absolute;
+  margin: 0 !important;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 12.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.decisionMakerIcon,
+.errorHandlerIcon,
+.valueConverterIcon,
+.vectorIcon2,
+.vectorIcon3 {
+  height: 25%;
+  width: 16.75%;
+  top: 37.5%;
+  right: 41.5%;
+  bottom: 37.5%;
+  left: 41.75%;
+  z-index: 2;
+}
+.decisionMakerIcon,
+.errorHandlerIcon,
+.vectorIcon2,
+.vectorIcon3 {
+  height: 8.25%;
+  width: 5%;
+  top: 29.25%;
+  right: 45%;
+  bottom: 62.5%;
+  left: 50%;
+}
+.decisionMakerIcon,
+.vectorIcon2,
+.vectorIcon3 {
+  top: 62.5%;
+  bottom: 29.25%;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  height: 6.25%;
+  width: 6.25%;
+  top: 25%;
+  right: 68.75%;
+  bottom: 68.75%;
+  left: 25%;
+}
+.vectorIcon3 {
+  top: 68.75%;
+  right: 25%;
+  bottom: 25%;
+  left: 68.75%;
+}
+.rightsFreeIcon2124031,
+.rightsFreeIcon2124031Wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rightsFreeIcon2124031 {
+  height: 40px;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.rightsFreeIcon2124031Wrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  padding: var(--padding-3xl);
+}
+.affordability {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.cutCostsWith {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 120%;
+  font-family: var(--font-literata);
+  color: var(--color-darkslategray-200);
+}
+.affordabilityParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-11xl);
+}
+.affordabilityParent,
+.dataAggregator1,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-31xl);
+}
+.dataAggregator1 {
+  width: 299px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavender);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-48xl) var(--padding-23xl) var(--padding-47xl);
+  box-sizing: border-box;
+}
+.naturalResourcesSustainabiliIcon,
+.naturalResourcesSustainabiliWrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.naturalResourcesSustainabiliIcon {
+  height: 35px;
+  flex-shrink: 0;
+  padding: var(--padding-10xs) var(--padding-9xs);
+  box-sizing: border-box;
+}
+.naturalResourcesSustainabiliWrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  padding: var(--padding-5xl) var(--padding-3xl);
+}
+.convenience {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.enjoyTheConvenience {
+  align-self: stretch;
+  height: 120px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 120%;
+  font-family: var(--font-literata);
+  color: var(--color-darkslategray-200);
+  display: inline-block;
+}
+.convenienceParent,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.convenienceParent {
+  align-self: stretch;
+  gap: var(--gap-11xl);
+}
+.frameGroup {
+  flex: 1;
+  gap: var(--gap-31xl);
+}
+.dataAggregator,
+.dataAggregator2 {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dataAggregator2 {
+  width: 299px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavender);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-48xl) var(--padding-23xl);
+  box-sizing: border-box;
+}
+.dataAggregator {
+  width: 1238px;
+  overflow-x: auto;
+  gap: var(--gap-sm);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-rockwell);
+}
+.dataAggregator,
+.graphVertex,
+.networkExpansions,
+.networkVertex {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.networkExpansions {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  z-index: 1;
+}
+.graphVertex,
+.networkVertex {
+  flex-direction: row;
+}
+.graphVertex {
+  justify-content: flex-start;
+  position: relative;
+}
+.networkVertex {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-3xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-literata);
+}
+@media screen and (max-width: 800px) {
+  .whyRencostume {
+    font-size: var(--font-size-13xl);
+  }
+  .networkExpansions {
+    gap: 25px 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whyRencostume {
+    font-size: var(--font-size-5xl);
+  }
+  .unlockBoundlessCreativity {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .affordability {
+    font-size: var(--font-size-xl);
+  }
+  .cutCostsWith {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .dataAggregator1 {
+    padding-top: var(--padding-25xl);
+    padding-bottom: var(--padding-24xl);
+    box-sizing: border-box;
+  }
+  .convenience {
+    font-size: var(--font-size-xl);
+  }
+  .enjoyTheConvenience {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .dataAggregator2 {
+    padding-top: var(--padding-25xl);
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}
