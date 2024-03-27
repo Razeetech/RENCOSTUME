@@ -1,7 +1,11 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import AlignerElement from "./AlignerElement";
-import styles from "./FrameComponent51.module.css";
+import styles from "./FrameComponent5.module.css";
+import arrow from "../../assets/riarrowdropdownline.svg"
+import parent2 from "../../assets/image-carousel-parent@2x.png"
+import vector11 from "../../assets/vector-11.svg"
+import naira from "../../assets/mdinaira.svg"
 
 const FrameComponent51 = () => {
   const navigate = useNavigate();
@@ -41,7 +45,7 @@ const FrameComponent51 = () => {
                   className={styles.riarrowDropDownLineIcon}
                   loading="lazy"
                   alt=""
-                  src="/riarrowdropdownline.svg"
+                  src={arrow}
                 />
               </div>
               <div className={styles.lineContainer}>
@@ -80,7 +84,7 @@ const FrameComponent51 = () => {
                 <img
                   className={styles.riarrowDropDownLineIcon1}
                   alt=""
-                  src="/riarrowdropdownline-11.svg"
+                  src={arrow}
                 />
               </div>
               <div className={styles.lineFrame}>
@@ -131,7 +135,7 @@ const FrameComponent51 = () => {
                 <img
                   className={styles.riarrowDropDownLineIcon2}
                   alt=""
-                  src="/riarrowdropdownline.svg"
+                  src={arrow}
                 />
               </div>
               <div className={styles.lineWrapper1}>
@@ -196,7 +200,7 @@ const FrameComponent51 = () => {
                 <img
                   className={styles.riarrowDropDownLineIcon3}
                   alt=""
-                  src="/riarrowdropdownline.svg"
+                  src={arrow}
                 />
               </div>
             </div>
@@ -211,7 +215,7 @@ const FrameComponent51 = () => {
                     <img
                       className={styles.imageCarouselParent}
                       alt=""
-                      src="/image-carousel-parent@2x.png"
+                      src={parent2}
                     />
                     <div className={styles.bookmarkFavoriteFavouriteHeWrapper}>
                       <div className={styles.bookmarkFavoriteFavouriteHe}>
@@ -219,7 +223,7 @@ const FrameComponent51 = () => {
                           className={styles.dataRowHeader}
                           loading="lazy"
                           alt=""
-                          src="/vector11.svg"
+                          src={vector11}
                         />
                       </div>
                     </div>
@@ -230,7 +234,7 @@ const FrameComponent51 = () => {
                       <img
                         className={styles.mdinairaIcon}
                         alt=""
-                        src="/mdinaira1.svg"
+                        src={naira}
                       />
                       <div className={styles.searchIconButton}>5,000</div>
                     </div>
@@ -240,7 +244,7 @@ const FrameComponent51 = () => {
                         <img
                           className={styles.mdinairaIcon1}
                           alt=""
-                          src="/mdinaira-1.svg"
+                          src={naira}
                         />
                         <div className={styles.shapeAssembler}>17,000</div>
                       </div>
