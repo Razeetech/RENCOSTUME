@@ -2,20 +2,21 @@
     padding: 200px 100px 100px;
     width: 100%;
 }
-.why h2, .categories h2 {
+.why h2 {
     font-size: 40px;
     font-weight: 600;
     color: #060208;
+    font-family: 'Literata', serif;
 }
-.why h2 span, .categories h2 span {
+.why h2 span {
     color: #3d1551;
 }
-.why > p, .categories > top > p {
+.why > p {
     color: #363732;
     font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-block: 30px;
     width: 700px;
+    font-family: 'Aceh';
 }
 .reasons {
     display: flex;
@@ -48,9 +49,12 @@
 .reason h5 {
     font-size: 25px;
     color: #060208;
+    font-family: 'Literata', serif;
 }
 .reason p {
     text-wrap: balance;
+    margin-bottom: 0;
+    font-family: 'Aceh', sans-serif;
 }
 
 @media screen and (max-width: 1250px) {
