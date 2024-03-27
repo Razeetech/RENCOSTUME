@@ -8,9 +8,6 @@
     width: 660px;
     text-align: center;
 }
-.categories .top p {
-    margin-bottom: 30px;
-}
 .categories .top button {
     padding: 10px;
     background-color: #3d1551;
@@ -18,6 +15,7 @@
     border-radius: 10px;
     font-size: 20px;
     font-weight: 600;
+    font-family: 'Aceh';
 }
 .images {
     display: grid;
@@ -43,6 +41,7 @@
     border: none;
     padding: 15px;
     text-wrap: nowrap;
+    font-family: 'Literata';
 }
 .images article.one {
     grid-row: 1 / 3 !important;
@@ -58,6 +57,7 @@
     font-size: 40px;
     font-weight: 600;
     color: #060208;
+    font-family: 'Literata', serif;
 }
 .categories h2 span {
     color: #3d1551;
@@ -67,8 +67,8 @@
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 30px;
+    font-family: 'Aceh', sans-serif;
 }
-
 @media screen and (max-width: 1250px) {
     .categories {
         padding: 0 80px 100px;

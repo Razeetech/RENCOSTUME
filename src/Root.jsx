@@ -9,7 +9,7 @@ const Root = () => {
       <Header />
       <Outlet />
       {
-        loc.pathname == '/checkout' ? <></> : <Footer />
+        loc.pathname == '/' ? <Footer /> : <></>
       }
     </>
   )

@@ -38,6 +38,10 @@
     color: #3d1551;
     font-size: 30px;
     font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-variation-settings:
+    "slnt" 0;
+    margin-bottom: 0;
 }
 .stat p {
     position: static !important;
@@ -45,6 +49,8 @@
     color: #060208;
     font-size: 18px;
     text-wrap: nowrap;
+    margin-bottom: 0;
+    font-family: 'Aceh';
 }
 .trusted {
     padding: 0 100px 100px;
@@ -54,6 +60,7 @@
     font-size: 40px;
     font-weight: 600;
     text-align: center;
+    font-family: 'Literata', serif;
 }
 .trusted div {
     margin-top: 30px;

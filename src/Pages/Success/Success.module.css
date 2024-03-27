@@ -1,0 +1,75 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    padding: 0 100px;
+}
+
+.wrapper section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.wrapper h4 {
+    font-size: 20px;
+    color: #363732;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.wrapper p {
+    font-size: 18px;
+    color: #363732;
+    font-weight: 300;
+    font-style: italic;
+    display: inline-block;
+}
+.wrapper div {
+    width: 500px;
+    margin-bottom: 60px;
+    display: flex;
+    gap: 20px;
+    align-items: start;
+}
+
+.wrapper button {
+    background-color: #3d1551;
+    color: white;
+    border-radius: 10px;
+    padding: 16px 54px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+@media screen and (max-width: 1250px) {
+    .wrapper {
+        padding: 0 80px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        padding: 0 60px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .wrapper {
+        padding: 0 45px;
+    }
+    .wrapper div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .wrapper {
+        padding: 0 30px;
+    }
+}

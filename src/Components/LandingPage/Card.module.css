@@ -14,13 +14,16 @@
     margin-bottom: 20px;
     font-weight: 400;
     width: 450px;
+    font-family: 'Literata', serif;
 }
 .wrapper p {
+    font-family: 'Aceh', sans-serif;
     font-size: 20px;
     color: #363732;
     width: 500px;
 }
 .wrapper button {
+    font-family: 'Aceh', sans-serif;
     padding: 10px;
     border-radius: 6px;
     color: #ffffff;

@@ -16,13 +16,14 @@
     display: block;
 }
 .title h4 {
-    position: absolute;
     transform: rotate(-90deg) translateY(-50%);
     transform-origin: top left;
-    left: 47%;
-    bottom: 200px;
-    font-size: 40px;
+    position: absolute;
     color: #3d1551;
+    font-size: 40px;
+    bottom: 200px;
+    left: 47%;
+    font-family: 'Literata', serif;
 }
 .info {
     display: flex;
@@ -36,10 +37,14 @@
     font-size: 30px;
     font-weight: 600;
     text-align: center;
+    font-family: 'Aceh', sans-serif;
 }
 .info div {
     background-color: #e8dbf9;
     padding: 60px 25px;
+}
+.info div p {
+    font-family: 'Aceh', sans-serif;
 }
 .wrapper > span {
     background-color: #3d1551;

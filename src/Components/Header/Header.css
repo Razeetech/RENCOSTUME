@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Aceh;
+    src: url(./assets/fonts/Aceh-Regular.otf) format('opentype');
+}
+
 header {
     display: flex;
     gap: 30px;
@@ -64,6 +69,7 @@ header a {
     color: #060208;
     text-decoration: none;
     text-wrap: nowrap;
+    font-family: 'Aceh', sans-serif;
 }
 aside {
     background-color: hsl(0, 0%, 100%);

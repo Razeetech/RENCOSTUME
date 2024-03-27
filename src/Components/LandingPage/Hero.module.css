@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
+
+@font-face {
+    font-family: Aceh;
+    src: url(./assets/fonts/Aceh-Regular.otf) format('opentype');
+}
+
 .homeWrapper {
     width: 100%;
     overflow-x: hidden;
@@ -9,12 +16,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    height: 85vh;
 }
 h1 {
-    font-size: 55px;
-    font-weight: 700;
+    font-size: 48px;
+    font-weight: bolder;
     color: #ffffff;
     width: 640px;
+    font-family: "Literata", serif;
+    font-style: normal;
+    margin-bottom: 0;
 }
 .hero > button {
     position: absolute;
@@ -39,6 +50,7 @@ h1 {
     width: 580px;
     position: static !important;
     transform: translateX(0) !important;
+    font-family: 'Aceh', sans-serif;
 }
 .heroText button {
     background-color: #3d1551;
@@ -47,6 +59,7 @@ h1 {
     padding: 24px 32px;
     font-size: 20px;
     border: none;
+    font-family: 'Aceh', sans-serif;
 }
 
 @media screen and (max-width: 1250px) {
