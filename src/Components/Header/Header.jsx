@@ -10,7 +10,7 @@ import useStore from '../../../store';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const { count, cart } = useStore();
+  const { count, cart, user } = useStore();
   // const totalQty = count();
 
   return (
@@ -28,7 +28,7 @@ const Header = () => {
       </div>
       <nav>
         <Link to="/">Order Tracking</Link>
-        <Link to='login' className='login-link'>Sign In</Link>
+        <Link to='/checkout' className='login-link'>{user ? "Checkout" : "Sign In"}</Link>
         <Link>
           <CiHeart size={24} stroke='#060208' />
         </Link>

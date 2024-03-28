@@ -32,6 +32,7 @@
     color: #060208;
     font-size: 18px;
     font-weight: 700;
+    margin-bottom: 0;
 } 
 .tabContentContainer {
     overflow-x: hidden;
@@ -92,7 +93,7 @@
     font-size: 18px;
     font-weight: 500;
 }
-.guest button, .tabContent button,  .create button {
+.guest > button, .tabContent button,  .create button {
     background-color: #3d1551;
     margin: 20px auto 0;
     padding: 12px 80px;
@@ -103,6 +104,9 @@
     border: none;
     display: block;
     cursor: pointer;
+}
+.guest button:disabled, .tabContent button:disabled,  .create button:disabled {
+    background-color: #7e34a3;
 }
 
 /* Sign In Page */
@@ -159,6 +163,7 @@ a {
     position: relative;
     background-color: #ffffff;
     transition: all 0.4s;
+    padding-top: 30px;
 }
 
 /* Payment Details */
@@ -205,6 +210,9 @@ aside > div > div {
 aside > div > div p {
     font-size: 20px;
     color: #3d3732;
+    margin-bottom: 0;
+    line-height: 18px;
+    /* font-weight: 500; */
 }
 aside > div > div p span {
     color: #3d3732;
@@ -217,6 +225,7 @@ aside > div > div h5 {
     font-size: 23px;
     font-weight: 700;
     margin-top: 8px;
+    margin-bottom: 0;
 }
 aside button {
     width: 100%;
@@ -369,7 +378,7 @@ aside button {
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1024px) {
     .wrapper {
         padding: 30px 60px;
     }
@@ -407,6 +416,9 @@ aside button {
         font-size: 16px;
         text-wrap: wrap;
     }
+    .review {
+        margin-bottom: 20px;
+    }
     .main {
         grid-template-columns: 1fr;
         gap: 40px;
@@ -422,6 +434,9 @@ aside button {
     }
     .tab {
         padding: 7px 10px;
+    }
+    aside {
+        padding: 20px 0 20px !important;
     }
     .main aside h3 {
         font-size: 24px;
