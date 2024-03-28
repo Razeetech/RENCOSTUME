@@ -1,13 +1,5 @@
 import { create } from "zustand";
 import { createJSONStorage, persist } from 'zustand/middleware'
-// const singleProduct = {
-//     image: '',
-//     name: '',
-//     type: '',
-//     timeinDays: 0,
-//     price: 0,
-//     quantity: 0
-// };
 
 const useStore = create(persist(
     (set, get) => ({
@@ -15,6 +7,12 @@ const useStore = create(persist(
         setUser(val) {
             set(state => ({
                 ...state, user: val
+            }))
+        },
+        session: {},
+        setSession(val) {
+            set(state => ({
+                ...state, session: val
             }))
         },
         cart: [],
@@ -50,7 +48,7 @@ const useStore = create(persist(
         }
     }),
     {
-        name: 'cart-storage',
+        name: 'rencostume',
         storage: createJSONStorage(() => sessionStorage),
     }
 ));
